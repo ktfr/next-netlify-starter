@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: gainsboro;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100px;
+}
+
+.nav {
+  background-color: #1f2937;
+  padding: 1rem 2rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLink {
+  color: black;               /* white text */
+  text-decoration: none;      /* no underline */
+  font-weight: 600;           /* slightly bold */
+  font-family: Helvetica, Arial, sans-serif;    /* clean sans serif */
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #fbbf24;             /* nice accent on hover */
+}
+
+
+.nav-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
